@@ -1,4 +1,4 @@
-package neep
+package mcst
 
 import "core:encoding/ansi"
 import "core:fmt"

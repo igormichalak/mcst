@@ -1,4 +1,4 @@
-package neep
+package mcst
 
 Op :: enum u8 {
 	ILLEGAL,

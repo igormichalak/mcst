@@ -1,4 +1,4 @@
-package neep
+package mcst
 
 fetch_operand :: proc(data: []u8, specifier: ^Operand_Specifier) -> Operand {
 	operand := Operand{

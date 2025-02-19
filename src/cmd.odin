@@ -1,4 +1,4 @@
-package neep
+package mcst
 
 import "core:fmt"
 import "core:os"

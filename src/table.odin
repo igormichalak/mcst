@@ -1,4 +1,4 @@
-package neep
+package mcst
 
 // Some opcodes contain 3 high bits for 11-bit addresses.
 @(private="file")

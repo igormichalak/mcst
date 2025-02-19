@@ -1,4 +1,4 @@
-# neep
+# MCST
 
 Actively developed Intel 8051 toolchain with the goal of creating 
 an assembler, disassembler, serial flasher and custom 

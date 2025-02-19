@@ -1,4 +1,4 @@
-BINARY_NAME = neep
+BINARY_NAME = mcst
 ARGS ?=
 
 .PHONY: all
