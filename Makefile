@@ -1,9 +1,10 @@
 BINARY_NAME = mcst
 ARGS ?=
 
-.PHONY: all
-all: run
-
 .PHONY: run
 run:
 	odin run ./src/ -vet -out:$(BINARY_NAME) -- $(ARGS)
+
+.PHONY: test
+test:
+	odin test ./tests/ -vet -define:ODIN_TEST_THREADS=0 -define:ODIN_TEST_PROGRESS_WIDTH=0
